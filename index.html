@@ -28,6 +28,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        font-family: "SemiBold";
+        src: url("/assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
       }
       .main {
         background-color: white;
@@ -59,8 +61,11 @@
       p {
         margin: 5px;
       }
-      h2 {
+      .title {
         margin-left: 5px;
+      }
+      .title:hover {
+        color: gold;
       }
       .content {
         font-size: 18px;
@@ -78,7 +83,7 @@
         />
         <h3 class="Learning">Learning</h3>
         <p>Published 21 Dec 2023</p>
-        <h2>HTML & CSS foundations</h2>
+        <h2 class="title">HTML & CSS foundations</h2>
         <p class="content">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
