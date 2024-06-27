@@ -33,13 +33,27 @@
         background-color: white;
         display: flex;
         flex-direction: column;
-        width: 400px;
-        padding: 10px;
+        width: 390px;
+        padding: 20px;
         margin: 20px;
+        border-radius: 10px;
+      }
+      .Learning {
+        background-color: gold;
+        width: 78px;
+        padding: 8px;
         border-radius: 10px;
       }
       .illistration {
         border-radius: 10px;
+      }
+      .profile {
+        display: flex;
+        align-items: center;
+      }
+      .pic {
+        margin: 10px;
+        height: 40px;
       }
     </style>
   </head>
@@ -51,14 +65,17 @@
           src="assets/images/illustration-article.svg"
           alt="illistration"
         />
-        <h3>Learning</h3>
+        <h3 class="Learning">Learning</h3>
         <p>Published 21 Dec 2023</p>
         <h2>HTML & CSS foundations</h2>
         <p>
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
-        <h5>Greg Hooper</h5>
+        <div class="profile">
+          <img class="pic" src="assets/images/image-avatar.webp" alt="" />
+          <h4>Greg Hooper</h4>
+        </div>
       </div>
     </div>
 
